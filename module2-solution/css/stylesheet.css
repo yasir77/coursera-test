@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 }
+
 h1{
   text-align: center;
 }
@@ -8,15 +9,16 @@ h1{
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
 h2{
+  font-size: 16px;
   float: right;
   border:1px solid black;
   margin-top: 0;
   margin-bottom: 15px;
   text-align: center;
-  width: 30%;
+  width: 35%;
   padding: 4px;
-  
 }
 
 p {
@@ -24,7 +26,6 @@ p {
   font-family: Helvetica;
   color: black;
   clear: right;
-
 }
 
 section{
@@ -36,11 +37,11 @@ section{
 
 
 #chicken{
-  background: #382f07;
+  background: #e2e8b4;
 }
 
 #beef{
-  background:#a35152;
+  background:#bb2f2f;
 }
 
 #sushi{
