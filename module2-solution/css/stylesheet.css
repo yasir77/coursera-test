@@ -1,63 +1,61 @@
 *{
 	box-sizing: border-box;
 }
-section{
-	background-color: #899DA3;
-	border:1px solid black;
-	width: 90%;
-	height: 230px;
-	margin-right: auto;
-  	margin-left: auto;
-  	
-  
-
+h1{
+  text-align: center;
 }
 
-h1{
-	font-family:sans-serif;
-	text-align: center;
+body{
+  font-family: 'Open Sans', sans-serif;
 }
 h2{
-	align-self: right;
-	border:1px solid black;
-	width: 8%;
-  	height: 30px;
-  	text-align: center;
+  float: right;
+  border:1px solid black;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 30%;
+  padding: 4px;
+  
+}
+
+p {
+  margin: 10px;
+  font-family: Helvetica;
+  color: black;
+  clear: right;
 
 }
+
+section{
+  border: 1px solid black;
+  background-color: gray;
+  margin: 15px ;
+  height: 200px;
+}
+
+
 #chicken{
-	position: absolute;
-	margin-top: 0px;
-	background-color: pink;
+  background: #382f07;
+
 }
+
 #beef{
-	position: absolute;
-	margin-top: 0px;
-	background-color: red;
+  background:#a35152;
 }
+
 #sushi{
-	position: absolute;
-	margin-top: 0px;
-	background-color: grey;
+background:#f4b042
 }
-p{
-  	
-  	font-family: Helvetica;
-  	background-color: #899DA3;
-	width: 90%;
-	margin-right: auto;
-  	margin-left: auto;
-  	color: black;
-  	padding: 10px;
-}
+
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+/********** Dektop view **********/
+@media (min-width: 998px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
   {
     float: left;
@@ -102,8 +100,8 @@ p{
 
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/********** Tablet devics **********/
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
